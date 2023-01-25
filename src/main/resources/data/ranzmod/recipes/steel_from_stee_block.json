@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "steel",
+  "ingredients": [
+    {
+      "item": "ranzmod:steel_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "ranzmod:steel"
+  }
+}
