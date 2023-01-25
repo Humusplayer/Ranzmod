@@ -2,6 +2,13 @@
   "itemGroup.ranztab": "Ranzige Mod",
 
   "item.ranzmod.steel": "Steel",
+  "item.ranzmod.steel_tool_rod": "Steel Handle",
+
+  "item.ranzmod.steel_sword": "Steel Sword",
+  "item.ranzmod.steel_shovel": "Steel Shovel",
+  "item.ranzmod.steel_hoe": "Steel Hoe",
+  "item.ranzmod.steel_axe": "Steel Axe",
+  "item.ranzmod.steel_pickaxe": "Steel Pickaxe",
 
   "block.ranzmod.steel_block": "Steel Block"
 }

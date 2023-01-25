@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#",
+    "R",
+    "R"
+  ],
+  "key": {
+    "#": {
+      "item": "ranzmod:steel_block"
+    },
+    "R": {
+      "item": "ranzmod:steel_tool_rod"
+    }
+  },
+  "result": {
+    "item": "ranzmod:steel_shovel"
+  }
+}

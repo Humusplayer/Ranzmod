@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "ranzmod:item/steel_hoe"
+  }
+}
