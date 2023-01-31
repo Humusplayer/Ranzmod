@@ -2,6 +2,7 @@ package net.forgetest.RanzMod;
 
 import com.mojang.logging.LogUtils;
 import net.forgetest.RanzMod.block.ModBlocks;
+import net.forgetest.RanzMod.block.entity.ModBlocksEntities;
 import net.forgetest.RanzMod.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,8 +21,9 @@ public class RanzMod {
     public RanzMod(){
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(modEventBus);Log("Moditems Registriert");
-        ModBlocks.register(modEventBus);Log("Modblocks Registriert");
+        ModItems.register(modEventBus);Log("Mod Items Registriert");
+        ModBlocks.register(modEventBus);Log("Mod Blocks Registriert");
+        ModBlocksEntities.register(modEventBus);Log("Mod Block Entities Registriert");
 
         modEventBus.addListener(this::commonSetup);
 
